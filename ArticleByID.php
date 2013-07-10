@@ -3,7 +3,6 @@
  * Setup for ArticleByID extension, a special page that provides redirects to articles
  * via their page IDs
  *
- * @file
  * @author stas-fomin@yandex.ru
  */
 

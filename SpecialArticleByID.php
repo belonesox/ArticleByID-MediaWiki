@@ -32,7 +32,7 @@ class SpecialArticleByID extends UnlistedSpecialPage {
 		$out = $this->getOutput();
 
 		$title = Title::newFromID( $par );
-		if ( $title !== false ) {
+		if ( $title ) {
 			$out->redirect( $title->getFullURL(), '301' );
 		} else {
 			$parEsc = wfEscapeWikiText( $par );
